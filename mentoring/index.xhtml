@@ -1,0 +1,67 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> <title>Student Database</title> </head>
+<body>
+<form action="a.php" method="post">
+<p style="background-color:">
+<b>Student Database</b><br/>
+<b>Add Entry</b> <br/>
+NAME: <input type="text" name="name" /> <br/>
+USN: <input type="text" name="usn" /> <br /> 
+BATCH: <input type="text" name="batch" /> <br /> 
+BRANCH: <input type="text" name="branch" /> <br />
+TYPE: <input type="text" name="type" /> <br />
+<hr/>
+
+<input type="submit" value="Add Details" />
+</p>
+</form>
+
+<hr/>
+<form action="r.php" method="post">
+<p style="background-color:">
+<b>Search student by Name :</b> <br/>
+Enter student name: <input type="text" name="name" />
+<input type="submit" value="Search" />
+</p>
+</form>
+
+<hr/>
+<form action="usnsearch.php" method="post">
+<p style="background-color:">
+<b>Search student by usn :</b> <br/>
+Enter student usn: <input type="text" name="usn" />
+<input type="submit" value="Search" />
+</p>
+</form>
+
+<hr/>
+<form action="semsearch.php" method="post">
+<p style="background-color:">
+<b>Search student by sem :</b> <br/>
+Enter student sem: <input type="text" name="sem" />
+sec: <input type="text" name="sec" />
+<input type="submit" value="Search" />
+</p>
+</form>
+
+<hr/>
+<form action="sub.php" method="post">
+<p style="background-color:">
+<b>Search subject by scheme :</b> <br/>
+Enter scheme: <input type="text" name="scheme" />
+
+<input type="submit" value="Search" />
+</p>
+</form>
+
+<hr/>
+<form action="sem.php" method="post">
+<p style="background-color:">
+<b>Search subject by sem :</b> <br/>
+Enter sem: <input type="text" name="sem" />
+<input type="submit" value="Search" />
+</p>
+</form>
+
+</body>
+</html>
